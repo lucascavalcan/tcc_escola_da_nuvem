@@ -263,7 +263,11 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .about__content {
         grid-template-columns: 1fr;
-        grid-gap: 8rem; } }
+        grid-gap: 8rem; } 
+        .about__content img {
+          max-width: 100vw;
+        }
+      }
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
