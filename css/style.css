@@ -260,6 +260,9 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem; }
+    img {
+      width: 480px;
+    }
     @media only screen and (max-width: 56.25em) {
       .about__content {
         grid-template-columns: 1fr;
