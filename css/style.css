@@ -259,9 +259,11 @@ textarea {
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem; }
+    grid-gap: 10rem; 
+    margin-bottom: 10rem;}
     img {
       width: 480px;
+      max-height: 380px;
     }
     @media only screen and (max-width: 56.25em) {
       .about__content {
@@ -532,6 +534,9 @@ textarea {
     cursor: pointer;
     color: #333;
     transition: color .3s; }
+    img {
+      width: 110px;
+    }
     .header__logo-container:hover {
       color: #0062b9; }
   .header__logo-img-cont {
